@@ -1,6 +1,6 @@
 pipeline {
     parameters{
-        string{defaultValue: "1", decription: "application Version", name: "version"}
+        string{defaultValue: 0.0.1, decription: "application Version", name: "version"}
 
     }
     environment{
